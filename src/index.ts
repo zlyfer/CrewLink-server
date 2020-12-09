@@ -90,6 +90,6 @@ io.on("connection", (socket: socketIO.Socket) => {
 
 server.listen(port);
 (async () => {
-  address = `http://crewlink.zlyfer.net:${port}`;
+  address = `https://crewlink.zlyfer.net:${port}`;
   logger.info("CrewLink Server started: %s", address);
 })();
